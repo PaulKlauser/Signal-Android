@@ -3376,7 +3376,8 @@ public class ConversationParentFragment extends Fragment
     inputPanel.setMediaKeyboard(emojiDrawerStub.get());
     emojiDrawerStub.get().setFragmentManager(getChildFragmentManager());
 
-    if (container.getCurrentInput() == emojiDrawerStub.get()) {
+    if (emojiDrawerStub.get().isShowing()) {
+//    if (container.getCurrentInput() == emojiDrawerStub.get()) {
       container.showSoftkey(composeText);
     } else {
       container.show(composeText, emojiDrawerStub.get());
