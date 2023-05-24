@@ -26,7 +26,7 @@
         tools:alpha="0.2f"
         tools:visibility="visible" />
 
-    <org.thoughtcrime.securesms.components.InputAwareLayout
+    <org.thoughtcrime.securesms.components.insetanimation.WindowInsetsAwareLinearLayout
         android:id="@+id/layout_container"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -181,7 +181,7 @@
 
         </LinearLayout>
 
-    </org.thoughtcrime.securesms.components.InputAwareLayout>
+    </org.thoughtcrime.securesms.components.insetanimation.WindowInsetsAwareLinearLayout>
 
     <View
         android:id="@+id/navbar_background"

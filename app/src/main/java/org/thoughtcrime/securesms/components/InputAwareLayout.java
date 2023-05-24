@@ -8,9 +8,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.thoughtcrime.securesms.components.KeyboardAwareLinearLayout.OnKeyboardShownListener;
+import org.thoughtcrime.securesms.components.insetanimation.IInputAwareLayout;
 import org.thoughtcrime.securesms.util.ServiceUtil;
 
-public class InputAwareLayout extends KeyboardAwareLinearLayout implements OnKeyboardShownListener {
+public class InputAwareLayout extends KeyboardAwareLinearLayout implements OnKeyboardShownListener, IInputAwareLayout {
   private InputView current;
 
   public InputAwareLayout(Context context) {

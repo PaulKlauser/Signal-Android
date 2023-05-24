@@ -79,7 +79,7 @@ public class InsetAwareConstraintLayout extends ConstraintLayout {
   public interface WindowInsetsTypeProvider {
 
     WindowInsetsTypeProvider ALL = () ->
-      WindowInsetsCompat.Type.ime() |
+//      WindowInsetsCompat.Type.ime() |
       WindowInsetsCompat.Type.systemBars() |
       WindowInsetsCompat.Type.displayCutout();
 

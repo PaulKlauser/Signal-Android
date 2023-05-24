@@ -310,6 +310,7 @@ public class ConversationFragment extends LoggingFragment implements Multiselect
     bottomActionBar       = view.findViewById(R.id.conversation_bottom_action_bar);
 
     final LinearLayoutManager      layoutManager            = new SmoothScrollingLinearLayoutManager(getActivity(), true);
+//    layoutManager.setStackFromEnd(true);
     final ConversationItemAnimator conversationItemAnimator = new ConversationItemAnimator(
         () -> {
           ConversationAdapter adapter = getListAdapter();
